@@ -1,0 +1,208 @@
+n: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#navigation{
+    height: 10vh;
+    width: 100%;
+    background: white;
+    position: fixed;
+    margin-bottom: 30px;
+}
+#navigation ul{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+#navigation ul li{
+    margin: 10px auto;
+    list-style: none;
+}
+
+#t{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: white;
+    gap: 20px;
+    padding: 0 9%;
+}
+
+.img{
+    width: 23.5%;
+    background-color: white;
+    height: auto;
+    text-align: center;
+}
+.img img{
+    height: auto;
+    width: 100%;
+}
+.d{
+    font-family: "Karma", sans-serif;
+    font-weight: 200;
+    font-size: 130%;
+}
+.e{
+    font-size: 100%;
+    font-family: "Karma", sans-serif;
+}
+
+.number{
+    padding: 50px 0 60px 0;
+    text-align: center;
+}
+#num{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+#num:hover{
+    background-color: black;
+    color: white;
+}
+.me{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+.me:hover{
+    background-color: lightgray;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.foodm{
+    margin: 50px 110px;
+    color: rgb(219, 216, 216);
+}
+
+#chef{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    width: 100%;
+}
+#chef img{
+    width: 80%;
+}
+
+.arial{
+    font-style: italic;
+    font-size: 17px;
+}
+#credits a{
+    text-decoration: underline;
+    color: black;
+    
+}
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.footer{
+    width: 20%;
+}
+#footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#blogs .image-hover{
+    display: flex; 
+    /* margin: 20px;  */
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+    padding: 10px 20px;
+}
+
+#blogs .image-hover:hover{
+    background-color: rgb(170, 170, 170);
+    /* padding: 10px; */
+    /* width: 100%; */
+}
+#blogs .image-hover img{
+    height: 50px;
+    width: 50px;
+}
+
+#blogs .image-hover img .blog-post{
+    display: block;
+} 
+#all-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+#all-tags p{
+    font-size: small;
+    padding: 2px 4px;
+}
+
+#tags .travel{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#tags .no-travel{
+    background-color: rgb(102, 102, 102);
+    color: white;
+    text-align: center;
+}
+ 
+@media (max-width: 767px){
+    #t{
+        flex-direction: column;
+    }
+    
+    .img{
+        width: 95%;
+    }
+    #footer{
+        flex-direction: column;
+        background-color: white;
+        padding: 0 9%;
+        gap: 15px;
+    }
+    
+    .footer{
+        background-color: white;
+        width: 99%;
+        margin-bottom: 4%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .img{
+        width: 22%;
+        }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .img{
+        width: 23.2%;
+        }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1919px){
+    
+    #chef{
+        font-size: 100%;
+    }
+
+
+}
